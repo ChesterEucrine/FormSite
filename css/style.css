@@ -1,0 +1,90 @@
+
+.body {
+	border: 1px solid lightblue;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	width: 50%;
+}
+
+.item_info {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+div img {
+	width: 400px;
+	height: 400px;
+}
+
+div.container {
+	margin: 10px;
+	font-size: 1.3em;
+}
+
+div.button {
+	text-align: right;
+	padding: 5px;
+	width: 96%; 
+}
+
+#name {
+	margin-left: 25px;
+	width: 80%;
+	border: 1px solid lightblue;
+}
+
+#name:focus {
+	margin-left: 25px;
+	width: 80%;
+	border: 1px solid lightgreen;
+}
+
+#surname {
+	margin-left: 3px;
+	width: 80%;
+	border: 1px solid lightblue;
+}
+
+#surname:focus {
+	margin-left: 3px;
+	width: 80%;
+	border: 1px solid lightgreen;
+}
+
+#review {
+	height: 100px;
+	width: 100%;
+	border: 1px solid lightblue;
+}
+
+#review:focus {
+	height: 100px;
+	width: 100%;
+	border: 1px solid lightgreen;
+}
+
+div.rcontainer {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+input#submit:hover {
+	color: white;
+	background: lightgreen;
+	border-radius: 5px;
+}
+
+fieldset {
+	border: 1px solid lightblue;
+	display: inline;
+	width: 90%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+legend {
+	font-size: 2em;
+	color: lightblue;
+}
